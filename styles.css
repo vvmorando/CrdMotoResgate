@@ -1,0 +1,301 @@
+/* CRD Moto Resgate — Design System
+   Paleta oficial aprovada em 12/11/2026.
+   Raio 12px, densidade confortável e sombra sutil aprovados pelo usuário.
+   Escala de espaçamento de 4px e valor numérico da sombra são convenções técnicas
+   de implementação documentadas no projeto.yaml.
+*/
+:root {
+  /* Paleta oficial */
+  --cor-fundo: #F4F5F7;
+  --cor-superficie: #FFFFFF;
+  --cor-superficie-secundaria: #E8EAEE;
+  --cor-texto: #171717;
+  --cor-texto-suave: #595F66;
+  --cor-primaria: #C8102E;
+  --cor-secundaria: #3B3F45;
+  --cor-cta: #A80720;
+  --cor-cta-hover: #8F061B;
+  --cor-foco: #C8102E;
+  --cor-borda: #80858E;
+  --cor-erro: #A80720;
+  --cor-sucesso: #3B3F45;
+  --cor-texto-sobre-cta: #FFFFFF;
+
+  /* Tipografia aprovada */
+  --fonte-titulos: "Saira Condensed", sans-serif;
+  --fonte-texto: "IBM Plex Sans", sans-serif;
+  --tamanho-pequeno: 12.8px;
+  --tamanho-texto: 16px;
+  --tamanho-h4: 20px;
+  --tamanho-h3: 25px;
+  --tamanho-h2: 31.25px;
+  --tamanho-h1: 39.06px;
+  --tamanho-destaque: 48.83px;
+
+  /* Escala operacional de espaçamento — base 4px */
+  --espaco-1: 4px;
+  --espaco-2: 8px;
+  --espaco-3: 12px;
+  --espaco-4: 16px;
+  --espaco-5: 24px;
+  --espaco-6: 32px;
+  --espaco-7: 48px;
+  --espaco-8: 64px;
+
+  /* Forma, elevação e layout */
+  --raio: 12px;
+  --sombra: 0 2px 10px rgba(23, 23, 23, 0.08);
+  --largura-maxima: 1120px;
+
+  /* Foco acessível */
+  --largura-anel-foco: 3px;
+  --offset-anel-foco: 2px;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--cor-fundo);
+  color: var(--cor-texto);
+  font-family: var(--fonte-texto);
+  font-size: var(--tamanho-texto);
+  line-height: 1.55;
+}
+:focus-visible {
+  outline: var(--largura-anel-foco) solid var(--cor-foco);
+  outline-offset: var(--offset-anel-foco);
+}
+
+body { background:var(--cor-fundo); }
+a { color:var(--cor-primaria); }
+.container { width:min(calc(100% - 32px),var(--largura-maxima)); margin-inline:auto; }
+header.site-header { background:var(--cor-superficie); border-bottom:1px solid var(--cor-borda); }
+.header-inner { min-height:100px; display:flex; align-items:center; justify-content:space-between; gap:24px; }
+.logo {
+  display:block;
+  width:auto;
+  max-width:240px;
+  height:88px;
+  object-fit:contain;
+  object-position:left center;
+}
+nav { display:flex; flex-wrap:wrap; gap:20px; align-items:center; }
+nav a { color:var(--cor-texto); text-decoration:none; font-weight:600; }
+.btn { min-height:48px; padding:12px 20px; display:inline-flex; align-items:center; justify-content:center; gap:8px; border:1px solid transparent; border-radius:var(--raio); font:600 16px var(--fonte-texto); text-decoration:none; cursor:pointer; transition:background .18s ease, transform .18s ease; }
+.btn-primary { background:var(--cor-cta); color:#fff; }
+.btn-primary:hover { background:var(--cor-cta-hover); }
+.btn-secondary { color:var(--cor-texto); background:var(--cor-superficie); border-color:var(--cor-borda); }
+.btn-link { color:var(--cor-primaria); background:transparent; text-decoration:underline; }
+.btn-disabled { color:#595F66; background:#E8EAEE; cursor:not-allowed; }
+.hero { padding:clamp(40px,7vw,88px) 0; }
+.hero-grid { display:grid; grid-template-columns:1.05fr .95fr; gap:40px; align-items:center; }
+.eyebrow { color:var(--cor-cta); font-weight:700; letter-spacing:.06em; text-transform:uppercase; font-size:14px; }
+h1,h2,h3,h4 { font-family:var(--fonte-titulos); line-height:1.02; margin:0 0 16px; }
+h1 { font-size:clamp(40px,5vw,64px); font-weight:800; }
+h2 { font-size:clamp(32px,4vw,44px); }
+h3 { font-size:25px; }
+p { margin:0 0 16px; }
+.lead { font-size:18px; max-width:58ch; }
+.hero-media { width:100%; aspect-ratio:4/3; object-fit:cover; border-radius:var(--raio); box-shadow:var(--sombra); }
+.section { padding:64px 0; }
+.section-heading { max-width:680px; margin-bottom:28px; }
+.grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:16px; }
+.card { background:var(--cor-superficie); border:1px solid #D7DADF; border-radius:var(--raio); padding:24px; box-shadow:var(--sombra); }
+.card p { color:var(--cor-texto-suave); }
+.icon { width:36px; height:36px; display:grid; place-items:center; border-radius:10px; background:var(--cor-superficie-secundaria); color:var(--cor-primaria); font-weight:800; margin-bottom:14px; }
+.form-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; }
+.field { display:flex; flex-direction:column; gap:6px; }
+.field.full { grid-column:1/-1; }
+label { font-weight:600; }
+input,textarea { width:100%; min-height:48px; padding:12px 14px; border:1px solid var(--cor-borda); border-radius:var(--raio); background:#fff; color:var(--cor-texto); font:400 16px var(--fonte-texto); }
+textarea { min-height:112px; resize:vertical; }
+.field-error input { border:2px solid var(--cor-erro); }
+.error-message { color:var(--cor-erro); font-size:14px; }
+.helper { color:var(--cor-texto-suave); font-size:14px; }
+.strip { background:var(--cor-secundaria); color:#fff; padding:28px; border-radius:var(--raio); }
+.strip strong { color:#fff; }
+details { background:#fff; border:1px solid #D7DADF; border-radius:var(--raio); padding:16px 20px; margin:10px 0; }
+summary { font-weight:600; cursor:pointer; }
+footer { background:var(--cor-secundaria); color:#fff; padding:40px 0; }
+footer a { color:#fff; }
+.placeholder { border:2px dashed var(--cor-borda); border-radius:var(--raio); padding:28px; color:var(--cor-texto-suave); background:var(--cor-superficie-secundaria); text-align:center; }
+.table-wrap { overflow-x:auto; }
+table { width:100%; border-collapse:collapse; background:#fff; font-size:14px; }
+th,td { text-align:left; padding:12px; border-bottom:1px solid #D7DADF; vertical-align:top; }
+th { background:var(--cor-secundaria); color:#fff; }
+.pass { color:#171717; font-weight:700; }
+.fail { color:var(--cor-erro); font-weight:700; }
+.note { border-left:4px solid var(--cor-primaria); padding:12px 16px; background:#fff; border-radius:0 var(--raio) var(--raio) 0; }
+
+.gallery-grid {
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:20px;
+}
+.gallery-item {
+  margin:0;
+  overflow:hidden;
+  border-radius:var(--raio);
+  background:var(--cor-superficie);
+  box-shadow:var(--sombra);
+}
+.gallery-item img {
+  display:block;
+  width:100%;
+  aspect-ratio:4/3;
+  object-fit:cover;
+}
+.gallery-item figcaption {
+  padding:10px 14px;
+  color:var(--cor-texto-suave);
+  font-size:13px;
+  font-weight:600;
+}
+@media(max-width:520px) {
+  .gallery-grid { grid-template-columns:1fr; }
+}
+
+
+.metrics-grid {
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:20px;
+}
+.metric-card { text-align:center; display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:210px; }
+.metric-number {
+  color:var(--cor-cta);
+  font-family:var(--fonte-titulos);
+  font-size:clamp(42px,5vw,58px);
+  font-weight:800;
+  line-height:1;
+  margin-bottom:12px;
+}
+.metric-card h3 { margin-bottom:10px; }
+.metric-card p { margin:0; }
+@media(max-width:800px) { .metrics-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+@media(max-width:520px) { .metrics-grid { grid-template-columns:1fr; } .metric-card { min-height:unset; } }
+
+@media(max-width:800px) {
+  .hero-grid { grid-template-columns:1fr; }
+  .grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .header-inner { flex-wrap:wrap; padding:10px 0; }
+  .logo { height:76px; max-width:210px; }
+  nav { order:3; width:100%; gap:12px; }
+}
+@media(max-width:520px) {
+  .grid,.form-grid { grid-template-columns:1fr; }
+  .field.full { grid-column:auto; }
+  .btn { width:100%; }
+  .section { padding:44px 0; }
+}
+@media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } *,*::before,*::after { transition:none!important; } }
+
+/* Selo de regularidade ANTT */
+.antt-seal {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: fit-content;
+  max-width: 100%;
+  margin-top: 22px;
+  padding: 10px 16px 10px 10px;
+  background: var(--cor-superficie);
+  border: 1px solid #D7DADF;
+  border-radius: var(--raio);
+  box-shadow: var(--sombra);
+}
+.antt-seal img {
+  display: block;
+  width: 66px;
+  height: 66px;
+  flex: 0 0 66px;
+  object-fit: contain;
+}
+.antt-seal p {
+  margin: 0;
+  color: var(--cor-texto);
+  font-size: 14px;
+  line-height: 1.3;
+  font-weight: 700;
+  letter-spacing: .025em;
+  max-width: 230px;
+}
+@media(max-width:520px) {
+  .antt-seal { gap: 10px; padding: 8px 12px 8px 8px; }
+  .antt-seal img { width: 58px; height: 58px; flex-basis: 58px; }
+  .antt-seal p { font-size: 13px; }
+}
+
+
+/* Melhorias de conversão e leitura */
+.steps-grid { grid-template-columns:repeat(3,minmax(0,1fr)); }
+.benefits-heading { margin-top:48px; margin-bottom:20px; }
+.benefits-grid { grid-template-columns:repeat(4,minmax(0,1fr)); }
+.steps-grid .card, .benefits-grid .card { height:100%; }
+.steps-grid .icon { font-size:18px; }
+.final-cta .strip { padding:clamp(28px,5vw,56px); }
+.final-cta h2 { color:#fff; }
+.final-cta .strip p { max-width:62ch; }
+@media(max-width:800px) {
+  .steps-grid { grid-template-columns:1fr; }
+  .benefits-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+}
+@media(max-width:520px) {
+  .benefits-grid { grid-template-columns:1fr; }
+}
+
+/* Benefícios com indicadores operacionais e diferencial Rico Racer */
+.benefit-card { min-height:250px; display:flex; flex-direction:column; align-items:flex-start; }
+.benefit-card .metric-number { font-size:clamp(40px,4vw,52px); margin-bottom:12px; }
+.benefit-card h3 { margin-bottom:10px; }
+.benefit-card p { margin:0; }
+.equipment-highlight {
+  margin-top:20px; padding:clamp(22px,4vw,36px);
+  display:flex; align-items:center; justify-content:space-between; gap:24px;
+  background:var(--cor-superficie); border:1px solid #D7DADF;
+  border-left:5px solid var(--cor-primaria); border-radius:var(--raio);
+  box-shadow:var(--sombra);
+}
+.equipment-highlight > div:first-child { max-width:720px; }
+.equipment-highlight .eyebrow { margin-bottom:8px; }
+.equipment-highlight h3 { margin-bottom:8px; }
+.equipment-highlight p:last-child { margin:0; color:var(--cor-texto-suave); }
+.equipment-mark {
+  flex:0 0 112px; min-height:76px; display:grid; place-content:center;
+  text-align:center; border:2px solid var(--cor-secundaria);
+  border-radius:10px; color:var(--cor-secundaria);
+  font-family:var(--fonte-titulos); font-size:22px; font-weight:800; line-height:.9;
+  letter-spacing:.02em;
+}
+.testimonial-card {
+  border:1px solid #D7DADF; border-top:5px solid var(--cor-primaria);
+  padding:clamp(24px,4vw,40px);
+}
+.testimonial-kicker {
+  color:var(--cor-cta); font-size:13px; font-weight:700;
+  letter-spacing:.07em; text-transform:uppercase; margin-bottom:16px;
+}
+.testimonial-author { font-size:18px; font-weight:800; margin-top:4px; }
+@media(max-width:520px) {
+  .equipment-highlight { align-items:flex-start; flex-direction:column; }
+  .equipment-mark { flex-basis:auto; min-height:60px; width:112px; }
+  .benefit-card { min-height:unset; }
+}
+\n
+
+/* Ajustes que estavam em atributos style no HTML */
+.budget-helper { color:#fff; margin:14px 0 0; }
+.testimonial-card { max-width:900px; }
+.testimonial-quote-mark {
+  color:var(--cor-primaria);
+  font-size:36px;
+  line-height:1;
+  margin-bottom:12px;
+}
+.testimonial-quote {
+  margin:0 0 20px;
+  font-size:18px;
+  line-height:1.7;
+}
+.eyebrow-on-dark { color:#fff; }

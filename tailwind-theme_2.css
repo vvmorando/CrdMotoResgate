@@ -1,0 +1,51 @@
+/* CRD Moto Resgate — Tailwind CSS v4
+   Importar tokens.css antes deste arquivo ou manter os valores sincronizados.
+*/
+@import "./tokens.css";
+
+@theme {
+  /* Cores da marca */
+  --color-crd-background: #F4F5F7;
+  --color-crd-surface: #FFFFFF;
+  --color-crd-surface-muted: #E8EAEE;
+  --color-crd-text: #171717;
+  --color-crd-text-muted: #595F66;
+  --color-crd-primary: #C8102E;
+  --color-crd-secondary: #3B3F45;
+  --color-crd-cta: #A80720;
+  --color-crd-cta-hover: #8F061B;
+  --color-crd-focus: #C8102E;
+  --color-crd-border: #80858E;
+  --color-crd-error: #A80720;
+  --color-crd-success: #3B3F45;
+  --color-crd-on-cta: #FFFFFF;
+
+  /* Fontes */
+  --font-display: "Saira Condensed", sans-serif;
+  --font-sans: "IBM Plex Sans", sans-serif;
+
+  /* Escala tipográfica */
+  --text-crd-small: 0.8rem;
+  --text-crd-base: 1rem;
+  --text-crd-h4: 1.25rem;
+  --text-crd-h3: 1.5625rem;
+  --text-crd-h2: 1.9531rem;
+  --text-crd-h1: 2.44125rem;
+  --text-crd-display: 3.051875rem;
+
+  /* Forma e elevação */
+  --radius-crd: 12px;
+  --shadow-crd: 0 2px 10px rgb(23 23 23 / 8%);
+
+  /* Espaçamentos — escala operacional de 4px */
+  --spacing-crd-1: 4px;
+  --spacing-crd-2: 8px;
+  --spacing-crd-3: 12px;
+  --spacing-crd-4: 16px;
+  --spacing-crd-5: 24px;
+  --spacing-crd-6: 32px;
+  --spacing-crd-7: 48px;
+  --spacing-crd-8: 64px;
+
+  --container-crd: 1120px;
+}

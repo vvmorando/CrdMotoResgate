@@ -1,0 +1,368 @@
+aluno: Vinicius
+data: '2026-11-12'
+link_conversa: ''
+produto:
+  nome: Serviço de resgate e transporte especializado de motocicletas
+  marca: CRD Moto Resgate
+  promessa: Sua moto transportada com segurança, atendimento 24 horas e preço justo.
+  o_que_e: Serviço especializado exclusivamente em resgate e transporte de motocicletas, com atendimento
+    24 horas em São Paulo capital, Grande São Paulo e regiões próximas.
+  problema: Atende motociclistas que, por algum imprevisto, não conseguem continuar seu trajeto e precisam
+    transportar a motocicleta com segurança até outro destino ou oficina.
+  diferenciais:
+  - titulo: Atendimento 24 horas
+    texto: Disponibilidade para atender solicitações de resgate e transporte de motocicletas a qualquer
+      hora.
+  - titulo: Especialização em motocicletas
+    texto: Atuação exclusiva com resgate e transporte de motos.
+  - titulo: Equipamentos Rico Racer
+    texto: Utilização de equipamentos especializados Rico Racer, considerados pelo responsável pela empresa
+      um diferencial importante para o transporte seguro das motocicletas.
+  planos:
+  - nome: Resgate e transporte sob orçamento
+    preco: Variável; não há preço único informado.
+    descricao: O valor é calculado principalmente conforme a quilometragem. Dia, horário e duração operacional
+      do transporte também podem influenciar o orçamento.
+  o_que_nao_faz: A CRD Moto Resgate não realiza manutenção nem conserto mecânico de motocicletas. Em algumas
+    situações, pode auxiliar pontualmente com chupeta de bateria ou entrega de combustível, mas o serviço
+    principal é o resgate e transporte.
+  vende_para: B2C — atendimento direto a pessoas físicas.
+  o_que_ja_observo:
+    publicos:
+    - Motociclistas que utilizam a moto para lazer e passeios.
+    - Motociclistas que sofreram acidentes e precisam transportar a motocicleta.
+    - Motociclistas que tiveram problemas mecânicos e precisam de transporte.
+    preocupacoes:
+    - Preço do transporte.
+    - Rapidez para o atendimento chegar.
+    - Segurança durante o transporte da motocicleta.
+    canais:
+    - WhatsApp
+    - Google Ads
+    - Site da empresa
+    - 'Instagram: publicações orgânicas e impulsionadas'
+    - Grupos de Facebook
+    - Indicações
+    problema_de_conversao: A demora para responder ou confirmar o serviço pode levar o cliente a desistir,
+      encontrar outra maneira de resolver o problema ou contratar outro serviço.
+    dados_indisponiveis:
+    - CRM estruturado
+    - Pesquisa formal com clientes
+    - Entrevistas organizadas
+    - Histórico estruturado de vendas
+    - Estatísticas confiáveis sobre perfil, comportamento e decisão de compra
+persona:
+  icp:
+    setor: ''
+    porte: ''
+    gatilho: ''
+  quem_usa: Motociclista que utiliza a moto para lazer e passeios e enfrenta um imprevisto que interrompe
+    o trajeto.
+  manchete: Motociclista que gosta de fazer passeios, mas pode ter sua viagem interrompida por um imprevisto
+    e precisa de uma empresa que chegue rápido, transporte sua moto com segurança e cobre um preço justo.
+  fala: Cara, minha moto parou no meio do passeio e preciso de alguém que venha rápido, transporte ela
+    com segurança e cobre um preço justo. Não quero ficar parado esperando nem correr o risco de danificar
+    minha moto.
+  dor: Ter o passeio ou trajeto interrompido e precisar encontrar rapidamente um serviço confiável para
+    transportar a motocicleta com segurança e preço justo.
+  jtbd: Quero retomar o controle da situação e levar minha motocicleta até o destino necessário sem ficar
+    esperando por muito tempo nem correr o risco de danificá-la durante o transporte.
+  oferta: Resgate e transporte especializado de motocicletas, com atendimento 24 horas, equipamentos Rico
+    Racer e orçamento conforme o trajeto.
+  caminho: O motociclista enfrenta um imprevisto, procura uma opção de resgate, entra em contato com a
+    CRD pelo WhatsApp ou outro canal, informa localização e destino, recebe um orçamento e confirma o
+    atendimento.
+  cena: Durante um passeio, a motocicleta apresenta um problema ou sofre um imprevisto e o motociclista
+    não consegue continuar. Ele precisa decidir como retirar a moto do local e levá-la a outro destino
+    ou oficina. Procura um serviço de resgate e compara rapidez, segurança e preço. Entra em contato com
+    a CRD e precisa receber retorno e confirmação sem demora.
+  contradicao: ''
+  mapa_empatia:
+    diz: Precisa de alguém que venha rápido, transporte a moto com segurança e cobre um preço justo. A
+      fala típica registrada é uma hipótese de persona, não um depoimento real.
+    faz: Procura um serviço de resgate, informa localização e destino e solicita orçamento. O comportamento
+      específico deve ser validado com entrevistas.
+    pensa: Pode se preocupar com o tempo de espera, o preço e a possibilidade de a moto ser danificada
+      durante o transporte. Inferência a validar.
+    sente: Pode sentir preocupação, frustração ou ansiedade por ter o passeio interrompido. Inferência
+      a validar.
+  retrato:
+  - dimensao: Gatilho de entrada
+    o_que_sabemos: Um imprevisto impede o motociclista de continuar o trajeto e ele precisa transportar
+      a moto.
+    origem: informei
+    evidencia: Descrição do problema que o serviço resolve.
+  - dimensao: Dor
+    o_que_sabemos: Precisa transportar a motocicleta com segurança até outro destino ou oficina.
+    origem: informei
+    evidencia: Descrição do problema que o serviço resolve.
+  - dimensao: Critérios de escolha
+    o_que_sabemos: Preço, rapidez de chegada e segurança são preocupações observadas.
+    origem: informei
+    evidencia: Fatores de preocupação citados pelo responsável pela empresa.
+  - dimensao: Evento que acelera a compra
+    o_que_sabemos: A impossibilidade de continuar o trajeto aumenta a necessidade de contratar o transporte.
+    origem: deduziu
+    evidencia: O serviço é procurado quando o motociclista não consegue seguir viagem.
+  - dimensao: Disposição a pagar
+    o_que_sabemos: O cliente recebe orçamento calculado principalmente pela quilometragem, com influência
+      possível do dia, horário e duração operacional.
+    origem: informei
+    evidencia: Modelo de precificação descrito pela empresa; limite de preço aceito pelo cliente a medir.
+  - dimensao: Confiança
+    o_que_sabemos: A segurança é uma preocupação observada; o peso específico dos equipamentos Rico Racer
+      na decisão ainda precisa ser validado.
+    origem: informei e deduziu
+    evidencia: Segurança foi informada como preocupação; efeito do equipamento na escolha é hipótese.
+  - dimensao: Gatilho de saída
+    o_que_sabemos: A demora para responder ou confirmar pode levar o cliente a desistir ou contratar outro
+      serviço.
+    origem: informei
+    evidencia: Problema de conversão relatado pelo responsável pela empresa.
+  risco_do_retrato: A persona prioriza o motociclista de lazer em situação de imprevisto, mas a relevância
+    relativa desse grupo frente a motociclistas acidentados ou com problemas mecânicos ainda precisa ser
+    validada. Também é necessário validar o peso real da rapidez e do equipamento Rico Racer na decisão.
+  decisoes:
+    por_que_esta: O motociclista em passeio foi escolhido como persona principal por representar uma situação
+      clara de interrupção do trajeto e necessidade de resgate e transporte.
+    descartadas:
+    - quem: Motociclista que sofre um acidente e precisa transportar a moto
+      por_que: É um público observado e potencialmente atendido, mas não foi escolhido como foco principal
+        da persona nesta etapa.
+    - quem: Motociclista que enfrenta um problema mecânico e precisa de transporte
+      por_que: É um público observado e potencialmente atendido, mas não foi escolhido como foco principal
+        da persona nesta etapa.
+    o_que_mudou: ''
+  hipoteses:
+  - afirmacao: A rapidez na resposta e na chegada influencia a contratação do serviço.
+    se_cair: A comunicação e a operação talvez precisem priorizar outros critérios de decisão, como preço
+      ou segurança.
+    fonte: Observação sobre preocupação com rapidez e desistência quando há demora. A relação causal ainda
+      precisa ser validada.
+    passos:
+    - Conversar com cinco motociclistas que já precisaram transportar uma moto.
+    - 'Perguntar: ''Na última vez que precisou transportar sua moto, o que mais influenciou sua escolha?'''
+    - Registrar as respostas.
+    prazo: 7 dias; custo baixo, utilizando contatos e WhatsApp.
+    confirma_se: Pelo menos 3 das 5 pessoas mencionarem rapidez, tempo de resposta ou previsão de chegada
+      como fator importante.
+    cai_se: Menos de 3 das 5 pessoas mencionarem rapidez como fator importante.
+  - afirmacao: Mostrar o equipamento Rico Racer pode aumentar a confiança e gerar contatos qualificados.
+    se_cair: A demonstração do equipamento pode não precisar ocupar posição central na comunicação; outros
+      argumentos devem ser investigados.
+    fonte: Equipamento informado como diferencial; impacto na confiança ainda é uma dedução.
+    passos:
+    - 'Publicar dois conteúdos nos canais atuais: um apresentando o serviço e outro mostrando o equipamento
+      Rico Racer.'
+    - Registrar os contatos qualificados recebidos por cada conteúdo.
+    - Comparar os resultados, considerando o alcance das publicações quando disponível.
+    prazo: 14 dias; custo baixo, utilizando os canais atuais.
+    confirma_se: O conteúdo que demonstra o equipamento gerar mais contatos qualificados do que o conteúdo
+      geral, considerando o alcance de cada publicação quando disponível.
+    cai_se: Não houver diferença perceptível nos contatos qualificados ou o conteúdo não despertar perguntas
+      relacionadas à segurança e ao transporte.
+  antipersona:
+    criterio: Incompatibilidade entre a necessidade procurada e o serviço que a CRD efetivamente oferece.
+    perfis:
+    - quem: Pessoas que precisam transportar carros ou outros veículos.
+      por_que: A CRD trabalha exclusivamente com motocicletas.
+    - quem: Motociclistas que procuram conserto mecânico.
+      por_que: A CRD não realiza manutenção nem reparos.
+    - quem: Pessoas que procuram apenas o menor preço, independentemente da segurança.
+      por_que: A proposta inclui transporte especializado e cuidado com a motocicleta.
+    - quem: Clientes que precisam de atendimento fora da área habitual.
+      por_que: O deslocamento pode comprometer a disponibilidade e a viabilidade operacional; avaliar
+        caso a caso.
+  leitura_critica:
+    vale_manter: ''
+    e_fragil: ''
+    proximo_passo: ''
+visual:
+  cor:
+    status: aprovada pelo usuário em 12/11/2026
+    paleta:
+    - papel: fundo
+      nome: Branco técnico
+      hex: '#F4F5F7'
+      uso: Fundos principais do site, páginas, cards e áreas de leitura.
+      proporcao: 60%
+      origem: aprovada pelo usuário em 12/11/2026
+    - papel: texto
+      nome: Preto carvão
+      hex: '#171717'
+      uso: Textos corridos, títulos e informações principais sobre fundos claros.
+      proporcao: 15%
+      origem: aprovada pelo usuário em 12/11/2026
+    - papel: primaria
+      nome: Vermelho CRD
+      hex: '#C8102E'
+      uso: Identidade da marca, títulos de destaque, ícones e elementos gráficos.
+      proporcao: 15%
+      origem: aprovada pelo usuário em 12/11/2026
+    - papel: secundaria
+      nome: Grafite
+      hex: '#3B3F45'
+      uso: Cabeçalhos escuros, rodapés, fundos de apoio e elementos de interface.
+      proporcao: 5%
+      origem: aprovada pelo usuário em 12/11/2026
+    - papel: cta
+      nome: Vermelho profundo
+      hex: '#A80720'
+      uso: Botões de orçamento, chamadas para ação e ações prioritárias.
+      proporcao: 5%
+      origem: aprovada pelo usuário em 12/11/2026
+    - papel: texto_sobre_cta
+      nome: Branco
+      hex: '#FFFFFF'
+      uso: Texto e ícones dentro dos botões e chamadas em vermelho profundo.
+      proporcao: 0% (cor sobreposta; não contabilizada na distribuição de áreas)
+      origem: aprovada pelo usuário em 12/11/2026
+    observacoes:
+    - Os códigos HEX foram aprovados pelo usuário como paleta oficial em 12/11/2026.
+    - A direção visual foi aprovada com base nas fotografias reais e na logomarca oficial enviadas pelo
+      usuário.
+    - A distribuição de áreas é orientativa; os percentuais podem variar conforme a peça.
+    - Branco sobre vermelho profundo é a combinação recomendada para texto de CTA.
+  tipografia:
+    status: Opção 1 aprovada pelo usuário como proposta tipográfica.
+    titulos:
+      familia: Saira Condensed
+      peso_principal: 800
+      uso: Títulos, chamadas e destaques.
+    textos:
+      familia: IBM Plex Sans
+      peso_principal: 400
+      uso: Textos corridos, descrições, informações e interface.
+    escala:
+      base: 16px
+      razao: '1.25'
+      pequeno: 12.8px / 0.8rem
+      texto: 16px / 1rem
+      h4: 20px / 1.25rem
+      h3: 25px / 1.5625rem
+      h2: 31.25px / 1.9531rem
+      h1: 39.06px / 2.4414rem
+      destaque: 48.83px / 3.0518rem
+    responsividade: H1 sugerido entre 32px e 44px em dispositivos móveis.
+    pesos:
+    - 400
+    - 500
+    - 600
+    - 700
+    - 800
+    fontes: 'Google Fonts; links: https://fonts.google.com/specimen/Saira+Condensed e https://fonts.google.com/specimen/IBM+Plex+Sans'
+    observacao: A tipografia complementa o logotipo original, não o substitui. Recomenda-se conferir a
+      aplicação junto ao arquivo do logo.
+  imagem_capa: ''
+  imagem_persona: ''
+  logomarca:
+    status: versão oficial atualizada pelo usuário em 12/11/2026
+    arquivo_referencia: Logo CRD Resgate e Transporte.png
+    descricao: Logomarca CRD Resgate e Transporte com motocicleta em silhueta acima das letras CRD em
+      vermelho, assinatura RESGATE E TRANSPORTE em branco sobre faixa preta e elemento gráfico de banda
+      de pneu ao fundo.
+    regra: Usar esta versão como logomarca principal e substituir versões anteriores. Não redesenhar,
+      distorcer, recolorir ou alterar a composição. Preservar proporção e área de respiro.
+    arquivo_original_preservado: true
+marca:
+  tom_de_voz:
+    atributos:
+    - isso: 'Especializada: demonstra conhecimento em resgate e transporte de motocicletas, destacando
+        o uso de equipamentos adequados, como o Rico Racer.'
+      nao_aquilo: 'Genérica: não se comunica como um guincho que atende qualquer tipo de veículo nem usa
+        promessas vagas.'
+    - isso: 'Próxima: conversa de forma humana, acolhedora e acessível. Expressões como ''Fica tranquilo,
+        a CRD pode te ajudar!'' podem ser usadas habitualmente em todos os canais.'
+      nao_aquilo: 'Excessivamente informal: evita gírias em excesso, intimidade forçada ou brincadeiras
+        que diminuam a seriedade da situação.'
+    - isso: 'Ágil e objetiva: informa o que a pessoa precisa fazer, como solicitar o orçamento e quais
+        dados enviar.'
+      nao_aquilo: 'Apressada ou fria: não transmite impaciência, não culpa o cliente e não responde de
+        forma seca.'
+    usar:
+    - Resgate e transporte de motocicletas
+    - Transporte com segurança, cuidado e equipamentos especializados
+    - Atendimento 24 horas em São Paulo e região
+    - Orçamento gratuito e sem compromisso
+    - Sua moto, seu passeio, conte com a CRD
+    - Envie sua localização e o destino pelo WhatsApp
+    evitar:
+    - O melhor guincho do Brasil
+    - Menor preço garantido
+    - Chegamos em minutos
+    - Segurança 100% garantida
+    - Serviço incomparável
+    - Solução completa para qualquer problema
+    - Preços imbatíveis
+    - Não se preocupe com nada
+    - A experiência definitiva em transporte
+    exemplos:
+    - antes: Teve um problema com seu veículo? Temos a solução perfeita para você!
+      depois: Sua moto deu problema durante o passeio? Fica tranquilo, a CRD pode te ajudar! Fazemos o
+        resgate e transporte da sua motocicleta com segurança, cuidado e equipamentos especializados.
+        Atendemos 24 horas em São Paulo e região. Chame a gente pelo WhatsApp e solicite seu orçamento
+        gratuito!
+    - antes: Trabalhamos com qualidade e excelência para oferecer o melhor serviço do mercado!
+      depois: Sua motocicleta merece cuidado no transporte. A CRD utiliza equipamentos especializados
+        Rico Racer para realizar o resgate e transporte de motos.
+    - antes: Entre em contato agora e aproveite nossas condições imperdíveis!
+      depois: Precisa transportar sua moto? Envie sua localização e o destino pelo WhatsApp. A CRD prepara
+        seu orçamento sem compromisso.
+    cta:
+    - Solicite seu orçamento
+    - Chame a CRD no WhatsApp
+    - Preciso resgatar minha moto
+anuncio: {}
+landing:
+  depoimentos:
+  - nome: Mauricio
+    texto: Gostei muito do atendimento da CRD! Minha moto apresentou um problema durante o passeio e precisei
+      de um guincho. Fui muito bem atendido, o Cláudio foi atencioso, chegou dentro do prazo combinado
+      e transportou minha moto com todo cuidado. O preço foi justo e fiquei muito satisfeito com o serviço.
+      Recomendo a CRD Moto Resgate!
+    origem: Depoimento enviado pelo cliente.
+    observacao_publicacao: Confirmar autorização do cliente para divulgar seu nome e depoimento em canais
+      públicos.
+design_system:
+  briefing: Design System para landing page institucional e comercial da CRD Moto Resgate, com foco mobile-first
+    e conversão de motociclistas que precisam de resgate ou transporte especializado para contato pelo
+    WhatsApp.
+  personalidade:
+    raio: Suave — 12px
+    densidade: Confortável
+    sombra: Sutil
+  largura_maxima: 1120px
+  plano_recomendado: Não se aplica — serviço sob orçamento
+  regras:
+  - Priorizar mobile-first, leitura rápida e contato pelo WhatsApp; manter alvos de toque com pelo menos
+    44px e foco visível.
+  - Usar exclusivamente a paleta oficial, as cores de apoio documentadas e as famílias Saira Condensed
+    e IBM Plex Sans; não criar novas cores ou fontes.
+  - Não inventar preços, planos, avaliações, depoimentos ou promessas; preservar a comunicação especializada,
+    próxima, ágil e objetiva da CRD.
+  decisoes:
+  - decisao: Raio suave de 12px
+    por_que: Equilibra a personalidade forte e profissional da CRD com uma interface acessível e acolhedora.
+      Aplicar a botões, campos, cartões e containers.
+  - decisao: Densidade confortável
+    por_que: Facilita a leitura no celular em uma situação de urgência, reduz a sobrecarga de informação
+      e mantém o CTA do WhatsApp fácil de localizar.
+  - decisao: Sombra sutil
+    por_que: Cria hierarquia e separação entre superfícies sem competir com a logomarca, o vermelho e
+      a fotografia real da operação.
+  cores_apoio:
+    superficie: '#FFFFFF'
+    superficie_secundaria: '#E8EAEE'
+    borda: '#80858E'
+    texto_suave: '#595F66'
+    cta_hover: '#8F061B'
+    foco: '#C8102E'
+    erro: '#A80720'
+    sucesso: '#3B3F45'
+  observacoes_tecnicas:
+  - 'A cor de borda #80858E foi escolhida em vez de #858A93 porque a primeira atinge contraste superior
+    a 3:1 sobre a superfície secundária #E8EAEE; #858A93 não atinge esse limite.'
+  - A escala de espaçamentos de 4px e a sombra CSS sutil são convenções de implementação para operacionalizar
+    as decisões aprovadas; não alteram a identidade e podem ser refinadas em uma revisão futura.
+  - O token de sucesso utiliza grafite neutro para não introduzir uma cor fora da paleta. A mensagem deve
+    sempre incluir texto e ícone, não depender apenas da cor.

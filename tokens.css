@@ -1,0 +1,68 @@
+/* CRD Moto Resgate — Design System
+   Paleta oficial aprovada em 12/11/2026.
+   Raio 12px, densidade confortável e sombra sutil aprovados pelo usuário.
+   Escala de espaçamento de 4px e valor numérico da sombra são convenções técnicas
+   de implementação documentadas no projeto.yaml.
+*/
+:root {
+  /* Paleta oficial */
+  --cor-fundo: #F4F5F7;
+  --cor-superficie: #FFFFFF;
+  --cor-superficie-secundaria: #E8EAEE;
+  --cor-texto: #171717;
+  --cor-texto-suave: #595F66;
+  --cor-primaria: #C8102E;
+  --cor-secundaria: #3B3F45;
+  --cor-cta: #A80720;
+  --cor-cta-hover: #8F061B;
+  --cor-foco: #C8102E;
+  --cor-borda: #80858E;
+  --cor-erro: #A80720;
+  --cor-sucesso: #3B3F45;
+  --cor-texto-sobre-cta: #FFFFFF;
+
+  /* Tipografia aprovada */
+  --fonte-titulos: "Saira Condensed", sans-serif;
+  --fonte-texto: "IBM Plex Sans", sans-serif;
+  --tamanho-pequeno: 12.8px;
+  --tamanho-texto: 16px;
+  --tamanho-h4: 20px;
+  --tamanho-h3: 25px;
+  --tamanho-h2: 31.25px;
+  --tamanho-h1: 39.06px;
+  --tamanho-destaque: 48.83px;
+
+  /* Escala operacional de espaçamento — base 4px */
+  --espaco-1: 4px;
+  --espaco-2: 8px;
+  --espaco-3: 12px;
+  --espaco-4: 16px;
+  --espaco-5: 24px;
+  --espaco-6: 32px;
+  --espaco-7: 48px;
+  --espaco-8: 64px;
+
+  /* Forma, elevação e layout */
+  --raio: 12px;
+  --sombra: 0 2px 10px rgba(23, 23, 23, 0.08);
+  --largura-maxima: 1120px;
+
+  /* Foco acessível */
+  --largura-anel-foco: 3px;
+  --offset-anel-foco: 2px;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--cor-fundo);
+  color: var(--cor-texto);
+  font-family: var(--fonte-texto);
+  font-size: var(--tamanho-texto);
+  line-height: 1.55;
+}
+:focus-visible {
+  outline: var(--largura-anel-foco) solid var(--cor-foco);
+  outline-offset: var(--offset-anel-foco);
+}
